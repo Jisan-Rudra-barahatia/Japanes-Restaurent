@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+p{
+    font-family: 'Benne', serif;
+}
+#sec1right img{
+    width: 100%;
+    height: 600px;
+}
+hr{
+    width: 50px;
+}
+#logo{
+    transform: rotate(-20deg);
+    width: 35%;
+}
+#section1 h1{
+    width: 380px;
+    font-size: 44px;
+    margin: 15px 0px 29px 120px;
+}
+#section1 p{
+    width: 410px;
+    font-size: 20px;
+    margin: 0px 0px 45px 120px;
+    color: rgb(110 110 110);
+}
+#section1 ul{
+    list-style-type: none;
+    margin-left: 88px;
+}
+#section1 #ul{
+    margin: 0px 0px 0px 0px;
+}
+#section1 li {
+    padding: 5px;
+}
+#section1 li a{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: brown;
+}
+#section1 #middle{
+    width: 395px;
+    height: 210px;
+    background-color: brown;
+    position: absolute;
+    margin: 390px 0px 0px 104px;
+    border: 2px solid white;
+}
+#middle h5{
+    width: 267px;
+    font-size: 16px;
+    color: rgb(231, 219, 219);
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0px 0px 35px;
+}
+#middle h3{
+    font-size: 15px;
+    color:white;
+    margin: 25px 0px 0px 20px;
+}
+#middle p{
+    font-size: 15px;
+    color:rgb(197, 197, 197); 
+    margin: 10px 0px 0px 25px;
+}
+#middle img{
+    width: 50px; 
+    height:50px; 
+    border-radius: 50%; 
+    margin:25px 0px 0px 40px;
+}
+#middle #round{ 
+    width: 50px;
+    height:50px; 
+    background-color:rgb(255, 255, 255); 
+    border-radius:50%;
+    margin: -25px;
+}
+
+@media (max-width: 768px){
+
+    #section1 h1{
+        width: 300px;
+        font-size: 30px;
+        margin: 15px 0px 20px 120px;
+    }
+    #section1 p{
+        width: 350px;
+        font-size: 15px;
+        margin: 0px 0px 20px 120px;
+        color: rgb(110 110 110);
+    }
+    #section1 li a{
+        font-size: 15px;
+    }
+    #section1 #middle{
+        width: 280px;
+        height: 180px;
+    }
+    #middle h5{
+        width: 220px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #section1 #sec1right img{
+        height: 570px;
+    }
+
+}
+
